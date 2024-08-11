@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Verdana";
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #081b29;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    font-size: 1.5rem;
+}
+
+.alex{
+    color: aliceblue;
+    position: relative;
+    right: 200px;
+    font-weight: 600;
+}
+
+.navitems ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navitems ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home,
+.navitems ul li a:hover {
+    color: #3593d6;
+}
+
+.contact button {
+    background-color: #3593d6;
+    color: aliceblue;
+    font-size: 1.2rem;
+    width: 180px;
+    height: 35px;
+    /* border-radius: 10px;  */
+    padding: 0;
+    margin: 0;
+}
+
+.contact button:hover {
+    color: #02497c;
+    border-radius: 10px;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 600px;
+}
+
+.image {
+    position: relative;
+    top: 4rem;
+    left: 13rem;
+}
+
+.info {
+    color: whitesmoke;
+    height: 25rem;
+    width: 35rem;
+    position: relative;
+    top: 10rem;
+    right: 10.9rem;
+    z-index: 1;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+h1,
+.paraga {
+    margin-top: 2.4rem;
+}
+
+.para {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color:#5eb1ec;
+}
+
+button {
+    /* z-index: 1; */
+    margin-top: 3.5rem;
+    margin-right: 3.2rem;
+    height: 2em;
+    width: 7em;
+    background-color: transparent;
+    border-radius: 0.61em;
+    border: 0.01em solid #081b29;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.hire {
+    background-color: #3593d6;
+    border: 0.01em solid #02497c;
+    /* border-radius: 1em; */
+}
+
+.Talk {
+    /* width: 150px; */
+    padding: 2px;
+    color: #3593d6;
+    border: 0.01em solid #3593d6;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+
+.icons a img{
+    height: 2.5rem;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+footer{
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+}
+
+footer a{
+    color:#3593d6;
+    text-decoration: none;
+}
+
